@@ -1,9 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        // 변수 선언과 출력
+        int age = 25;
+        double pi = 3.14159;
+        String name = "나강";
+        boolean isStudent = true;
 
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
-        }
+        System.out.println("나이: " + age);
+        System.out.println("원주율: " + pi);
+        System.out.println("이름: " + name);
+        System.out.println("학생 여부: " + isStudent);
     }
 }
